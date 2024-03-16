@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function func(){
+            var nme=document.getElementById("txt").value;
+            var first=0;
+            var end=nme.length-1;
+            while(first>end){
+                if(nme.first!=nme.end){
+                    return false;
+                }
+                else {
+                    first++;
+                    end++;
+                }
+                return true;
+            if(func()==true)
+                alert("palindrome");
+            else
+                alert("not a palindrome");
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="txt">
+    <button onclick="func()">Click</button>
+</body>
+</html>
